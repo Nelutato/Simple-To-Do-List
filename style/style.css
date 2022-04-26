@@ -1,0 +1,133 @@
+/* 0471A6  Cyan*/
+/* AC80A0 little pink for border */
+*
+{
+    background-color: #061826;
+    color: #AC80A0;
+}
+/*---- nav */
+nav
+{
+    /* display: inline; */
+    border-bottom: 1px solid white ;
+    background-color: #AC80A0;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 99%;
+    height: 5%;
+    margin: 5px;
+}
+
+nav a
+{
+    background-color: #AC80A0;
+    margin: 5px; 
+    margin-left: 10px ;
+    color: #061826;
+    text-decoration: none;
+    padding: 1px;
+    border-right: 1px solid #061826;
+}
+
+/*---- Tasks */
+.TaskForm h1
+{
+    margin-top:  10px;
+    display: block;
+    width: 100%;
+}
+
+.TaskForm
+{
+    
+    text-align: center;
+    margin: 50px auto;
+    height: 50%;
+    width: 50%;
+    padding: 5px;
+    border: 1px white solid;
+}
+
+.TaskForm button
+{
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 15px;
+    background-color: white;
+    color: black;
+}
+
+.TaskForm input
+{
+    margin: 5px;
+}
+
+.TaskForm #body
+{
+    min-height: 80px;
+}
+
+/* list Task */
+#ListTask
+{
+    margin: 5px;
+    display: grid;
+    justify-content: space-between;
+    padding: 5px;
+    grid-template-columns: repeat(5, 1fr)
+}
+
+#ListTaskTitle
+{
+    margin-top: 10px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    border: 1px dotted white;
+}
+
+.card ,.card h1
+{
+
+ background-color:white;
+ color: #061826;
+ padding: 10px;
+ margin: 5px;
+}
+
+.BrakeLine
+{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+/*----- Login */
+.LoginForm
+{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 15px;
+    width: 50%;
+    border: 1px solid white;
+
+}
+
+.LoginForm input
+{
+    background-color: white;
+    margin: 5px;
+}
+
+.LoginForm button
+{
+    margin: 5px;
+    padding: 8px;
+    border: 2px solid white;
+}
+
+.LoginForm button:hover
+{
+    background-color: white;
+    opacity: 50%;
+}
