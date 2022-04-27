@@ -13,7 +13,7 @@ function CheckIfExist($login, $email, $conn)
 if (isset($_POST['login']) && isset($_POST['password']) && isset($_POST['email']) ) 
 {
     $login =  $_POST['login'];
-    $password = $_POST['password'];
+    $password = password_hash($_POST['password'] , PASSWORD_DEFAULT);
     $email = $_POST['email'];
     
     $row = CheckIfExist($login, $email, $conn);

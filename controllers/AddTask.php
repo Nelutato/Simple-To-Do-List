@@ -15,5 +15,5 @@
         header('Location: ../index.php');
     }else
     {
-        echo ' need to log in ';
+        header('Location: ../login.php');
     }

@@ -16,7 +16,7 @@
         Rejestracja 
     </h1>
     <div class="LoginForm">
-        <form action="Database/UserRegister.php" method="POST">
+        <form action="controllers/UserRegister.php" method="POST">
             email:  <br>
             <input type="email" name="email" required> <br>
             Login :  <br>

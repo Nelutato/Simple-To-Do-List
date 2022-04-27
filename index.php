@@ -1,6 +1,6 @@
 <?php
-require_once 'Database/connect.php';
-require 'Database/TaskController.php';
+require_once 'controllers/connect.php';
+require 'controllers/TaskController.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +22,7 @@ require 'Database/TaskController.php';
         
             <h1>Dodaj Zadanie : </h1>
             
-            <form action="Database/AddTask.php" method="POST">
+            <form action="controllers/AddTask.php" method="POST">
                 Title <br>
                 <input type="text" name="title" id="title"> <br>
                 Body <br>
